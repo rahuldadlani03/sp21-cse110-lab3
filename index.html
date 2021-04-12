@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" 
+        type="image/png" href="https://static.vecteezy.com/system/resources/previews/001/240/979/non_2x/top-down-view-of-a-beach-free-photo.jpeg">
+        <title>My Journal</title>
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                <h1><span>My Journal</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#TwoDaysAgo">Two Days Ago</a></li>
+                    <li><a href="#OneDayAgo">One Day Ago</a></li>
+                    <li><a href="#Today">Today</a></li>
+                    <li><a href="#NewEntry">New Entry</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <hr>
+            <div id="JournalEntries">
+                <section>
+                    <h2 id="TwoDaysAgo">Crossed off a bucket list item</h2>
+                    <h3>4/9/21</h3>
+                    <h4>Highlights</h4>
+                    <ol>
+                        <li>Went scuba diving</li>
+                        <li>Surfed</li>
+                    </ol>
+                    <h4>Lowlights</h4>
+                    <ol>
+                        <li>Got stung by a jellyfish</li>
+                        <li>Almost got <em>eaten by a shark</em></li>
+                    </ol>
+                    <h4>Rants and Thoughts</h4>
+                    <p>
+                        A <em>shark? REALLY?!</em> I was having a great day until I realized I was in a trailer for <cite>Jaws</cite>. <strong>Always check the beach's website for shark warnings.</strong> Check the media attached to get an idea of what it was like
+                        <br/>
+                        Anyways, I was able to go <b>scuba diving</b> which was cool. I took the <i>Queen Mary</i> to Catalina, hopped off and met with some friends. We took kayaks to a spot and got to see some cool fish.
+                    </p>
+                    <img src="https://i.pinimg.com/originals/d8/8d/99/d88d99b32393e2d9dba7cc0ee105d3ae.jpg">
+                    <br/>
+                    What it sounded like:
+                    <br/>
+                    <audio controls src="audio/jaws.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                    <br/>
+                    What it looked like:
+                    <br/>
+                    <video controls width="350">
+                        <source src="videos/shark.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <hr>
+                <section>
+                    <h2 id="OneDayAgo">Productive day</h2>
+                    <h3>4/10/21</h3>
+                    <h4>Highlights</h4>
+                    <ol>
+                        <li>Finished Math 171b homework</li>
+                        <li>Applied to internships</li>
+                    </ol>
+                    <h4>Lowlights</h4>
+                    <ol>
+                        <li>Didn't go outside</li>
+                        <li>What is sunlight?</li>
+                    </ol>
+                    <h4>Rants and Thoughts</h4>
+                    <p>
+                        It's always great getting work done. When the water in the cold shower gets cold, I get colder. I'm only yelling because I'm becoming more productive not because I'm cold #hustler #mettle #routine #4am #IOnlyTakeShowersIfTheyGiveMeHypothermia
+                    </p>
+                    <img width="250" src="https://i.ytimg.com/vi/vo1BzyBwZ1E/maxresdefault.jpg">
+                    <br/>
+                    What it sounded like:
+                    <br/>
+                    <audio controls src="audio/scream.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                    <br/>
+                    What it looked like:
+                    <br/>
+                    <video controls width="350">
+                        <source src="videos/shower.mp4" type="video/mp4">
+                    </video>
+                </section>
+                <hr>
+                <section>
+                    <h2 id="Today">Had fun!</h2>
+                    <h3>4/11/21</h3>
+                    <h4>Highlights</h4>
+                    <ol>
+                        <li>Played Valorant</li>
+                        <li>Ranked Up</li>
+                    </ol>
+                    <h4>Lowlights</h4>
+                    <ol>
+                        <li>Deranked</li>
+                        <li>Lost 15 after ranking up</li>
+                    </ol>
+                    <h4>Rants and Thoughts</h4>
+                    <p>
+                        Valorant's a trash game
+                    </p>
+                    <img width="250" src="https://nintendoinquirer.com/wp-content/uploads/2020/07/maxresdefault-3.webp">
+                    <br/>
+                    What it sounded like:
+                    <br/>
+                    <audio controls src="audio/scream.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                    <br/>
+                    What it looked like:
+                    <br/>
+                    <video controls width="350">
+                        <source src="videos/ace.mp4" type="video/mp4">
+                    </video>
+                    <br/>
+                    <details>
+                        <summary>Note</summary>
+                        This is not me
+                    </details>
+                </section>
+                <hr>
+                <h4 id="NewEntry">New Entry</h4>
+                    <form>
+                        <label for="Title">Title</label>
+                        <input id="Title" type="text"><br/>
+
+                        <label for="lights">Include Hightlights or Lowlights?</label>
+                        <input id="lights" type="checkbox"><br/>
+                        
+                        <label for="date">Date</label>
+                        <input id="date" type="date"><br/>
+
+                        <label for="story">Rant or Thoughts:</label><br/>
+                        <textarea id="story" name="story" rows="5" cols="30">Today was...</textarea>
+
+                        <fieldset>
+                            <legend>How are you feeling today</legend>
+                        
+                            <input type="radio" id="happy" name="emotion">
+                            <label for="happy">Happy</label><br/>
+                        
+                            <input type="radio" id="sad" name="emotion">
+                            <label for="sad">Sad</label><br/>
+                        
+                            <input type="radio" id="angry" name="emotion">
+                            <label for="angry">Angry</label>
+                          </fieldset>
+                        <br/>
+                          <label for="ice-cream-choice">What was your productivity level?</label>
+                            <input list="productivity" id="productivity-choice" name="productivity-choice" />
+
+                            <datalist id="productivity">
+                                <option value="A lot">
+                                <option value="Not a lot">
+                                <option value="Usual amount">
+                            </datalist>
+                            <br/>
+                            <label for="pet-select">Choose the animal you felt the most like today:</label>
+                            <select name="pets" id="pet-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="hamster">Hamster</option>
+                                <option value="parrot">Parrot</option>
+                                <option value="spider">Spider</option>
+                                <option value="goldfish">Goldfish</option>
+                            </select>
+                            <button>Add new entry</button>
+                    </form>
+                <hr>
+            </div>
+
+        </main>
+        <footer>
+            <p>Until next time</p>
+        </footer>
+        
+    </body>
+</html>
