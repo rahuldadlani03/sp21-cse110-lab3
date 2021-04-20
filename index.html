@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" 
         type="image/png" href="https://static.vecteezy.com/system/resources/previews/001/240/979/non_2x/top-down-view-of-a-beach-free-photo.jpeg">
         <title>My Journal</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <div id="title">
-                <h1><span>My Journal</span></h1>
-            </div>
+            <h1><span class="title">My Journal</span></h1>
             <nav>
-                <ul>
+                <ul class="links">
                     <li><a href="#TwoDaysAgo">Two Days Ago</a></li>
                     <li><a href="#OneDayAgo">One Day Ago</a></li>
                     <li><a href="#Today">Today</a></li>
@@ -26,7 +27,7 @@
             <div id="JournalEntries">
                 <section>
                     <h2 id="TwoDaysAgo">Crossed off a bucket list item</h2>
-                    <h3>4/9/21</h3>
+                    <h3 id="TwoDaysAgoDate">4/9/21</h3>
                     <h4>Highlights</h4>
                     <ol>
                         <li>Went scuba diving</li>
